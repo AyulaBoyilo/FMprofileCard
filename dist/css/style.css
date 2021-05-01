@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background: url("../images/bg-pattern-top.svg") no-repeat left -95vw top -70vw/150vw, url("../images/bg-pattern-bottom.svg") no-repeat left 50vw bottom -70vw/150vw;
+  background-color: #19a2ae;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .card {
+  width: 85vw;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px rgba(17, 9, 48, 0.2);
+}
+.container .card .head-bg {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  background-image: url("../images/bg-pattern-card.svg");
+}
+.container .card img {
+  position: relative;
+  top: -48px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.container .card .identity {
+  margin: -28px auto 5px auto;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.container .card .identity h3,
+.container .card .identity p {
+  line-height: 25px;
+  font-size: 18px;
+}
+.container .card .identity .age {
+  color: #6a6f81;
+  padding-left: 10px;
+}
+.container .card .location {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #6a6f81;
+}
+.container .card .stats {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.container .card .stats .photos,
+.container .card .stats .likes,
+.container .card .stats .followers {
+  flex: 1;
+}
+.container .card .stats .category {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #6a6f81;
+}
+
+.attribution {
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 50px;
+  width: 85vw;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+  .container {
+    height: auto;
+    padding: 50px 0;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background: url("../images/bg-pattern-top.svg") no-repeat left -40vw top -50vw/90vw, url("../images/bg-pattern-bottom.svg") no-repeat left 50vw bottom -50vw/90vw;
+    background-color: #19a2ae;
+  }
+}/*# sourceMappingURL=style.css.map */
