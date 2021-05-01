@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/AyulaBoyilo/FMprofileCard)
-- Live Site URL: [GitHub Pages](https://ayulaboyilo.github.io/FMprofileCard)
+- Solution URL: [GitHub repository](https://github.com/AyulaBoyilo/FMprofileCard/)
+- Live Site URL: [GitHub Pages](https://ayulaboyilo.github.io/FMprofileCard/)
 
 ## My process
 
