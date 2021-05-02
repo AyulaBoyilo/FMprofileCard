@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-Very simple challenge. Only thing worth mentiong is multiple backgrounds set to view width percentage to ensure a flexible background pattern.
+Very simple challenge. Only thing worth mentioning is multiple backgrounds set to view width percentage to ensure a flexible background pattern.
 
 ```css
 body {
